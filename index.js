@@ -33,24 +33,30 @@ client.on('message', (message) => {
   if(message.content == 'ping') {
     return message.reply('pong');
   }
-  if(message.content == '시몬은 착해?') {
-    return message.reply('아뇨;;');
-  }
   if(message.content == '시몬은 귀여워?') {
-    return message.reply('아뇨;;');
-  }
-  if(message.content == '피츄는 착해?') {
-    return message.reply('네!');
-  }
-  if(message.content == '피츄는 귀여워?') {
-    return message.reply('네!');
-  }
-  if(message.content == '현식이는 착해?') {
-    return message.reply('아뇨;;');
-  }
-  if(message.content == '현식이는 귀여워?') {
-    return message.reply('아뇨;;');
-  }
+  return message.reply('아뇨;;');
+}
+if(message.content == '시몬은 착해?') {
+  return message.reply('아뇨;;');
+}
+if(message.content == '현식이는 귀여워?') {
+  return message.reply('아뇨;;');
+}
+if(message.content == '현식이는 착해?') {
+  return message.reply('아뇨;;');
+}
+if(message.content == '피츄는 착해?') {
+  return message.reply('네!');
+}
+if(message.content == '피츄는 귀여워?') {
+  return message.reply('네!');
+}
+if(message.content == '도리는 착해?') {
+  return message.reply('네!');
+}
+if(message.content == '도리는 귀여워?') {
+  return message.reply('네!');
+}
 
   if(message.content == 'embed') {
     let img = 'https://cdn.discordapp.com/icons/419671192857739264/6dccc22df4cb0051b50548627f36c09b.webp?size=256';
