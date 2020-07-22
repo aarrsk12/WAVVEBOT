@@ -33,10 +33,10 @@ client.on('message', (message) => {
   if(message.content == 'ping') {
     return message.reply('pong');
   }
-  if(message.content == '시몬형은 착해?') {
+  if(message.content == '시몬은 착해?') {
     return message.reply('아뇨;;');
   }
-  if(message.content == '시몬형은 귀여워?') {
+  if(message.content == '시몬은 귀여워?') {
     return message.reply('아뇨;;');
   }
   if(message.content == '피츄는 착해?') {
@@ -45,10 +45,10 @@ client.on('message', (message) => {
   if(message.content == '피츄는 귀여워?') {
     return message.reply('네!');
   }
-  if(message.content == '현식이형은 착해?') {
+  if(message.content == '현식이는 착해?') {
     return message.reply('아뇨;;');
   }
-  if(message.content == '현식이형은 귀여워?') {
+  if(message.content == '현식이는 귀여워?') {
     return message.reply('아뇨;;');
   }
 
